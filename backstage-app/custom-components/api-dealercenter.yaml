@@ -16,7 +16,7 @@ spec:
   lifecycle: experimental
   owner: Team DealerCenter
   system: Nowcom Global Ecosystem
-  providesApi: ['component:DealerCenter-API']
+  providesApi: ['component:DealerCenter-Website']
   definition: |
     openapi: "3.0.0"
     info:
