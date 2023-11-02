@@ -17,3 +17,5 @@ spec:
   owner: Team DealerCenter
   system: Nowcom Global Ecosystem
   consumesApi: ['component:DealerCenter-Website']
+  definition: |
+    some dummy api def goes here
