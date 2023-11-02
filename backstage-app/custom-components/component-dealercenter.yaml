@@ -19,5 +19,7 @@ spec:
   lifecycle: experimental
   owner: Team DealerCenter
   system: Nowcom Global Ecosystem
-  consumesAPI: ['component:DealerCenter-API']
-  dependsOn: ['resource:dealercenter-db']
+  consumesAPI:
+    - DealerCenter-API
+  dependsOn:
+    - resource:default/DealerCenterDB
