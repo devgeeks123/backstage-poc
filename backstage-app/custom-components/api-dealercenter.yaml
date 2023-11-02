@@ -1,1 +1,19 @@
-adf
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: DealerCenter-API
+  description: |
+    DealerCenter API
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/OAI/OpenAPI-Specification/blob/main/examples/v3.1/webhook-example.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: internal-api
+  lifecycle: experimental
+  owner: Team DealerCenter
+  system: Nowcom Global Ecosystem
+  apiConsumedBy: ['component:DealerCenter-Website']

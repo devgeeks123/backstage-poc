@@ -85,7 +85,9 @@ catalog:
 
     - type: url
       target: https://github.com/devgeeks123/backstage-poc/tree/master/backstage-app/custom-components/component-dealercenter.yaml
-
+    
+    - type: url
+      target: https://github.com/devgeeks123/backstage-poc/tree/master/backstage-app/custom-components/api-dealercenter.yaml
     
     # - type: github-discovery
     #   target: https://github.com/*/*/blob/-/backstage-app/catalog-dealercenter.yaml
