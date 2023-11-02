@@ -84,7 +84,8 @@ catalog:
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
 
     - type: url
-      target: https://github.com/devgeeks123/backstage-poc/blob/master/backstage-app/catalog-dealercenter.yaml
+      target: https://github.com/devgeeks123/backstage-poc/tree/master/backstage-app/custom-components/component-dealercenter.yaml
+
     
     # - type: github-discovery
     #   target: https://github.com/*/*/blob/-/backstage-app/catalog-dealercenter.yaml
