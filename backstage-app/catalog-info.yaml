@@ -1,4 +1,35 @@
 apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: dealercenter-db
+  description: dealercenter-db
+spec:
+  type: database
+  owner: team dealercetner dba
+  system: Nowcom Global Ecosystem
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Nowcom Global Ecosystem
+  description: Handy tools to keep artists in the loop
+spec:
+  owner: NowcomGlobal
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Team DealerCenter
+  description: Team DealerCenter
+spec:
+  type: team
+  profile:
+    displayName: Team DealerCenter
+    email: dealercenter-dev@nowcom.com
+  children: [backstage, other]
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-app
@@ -56,3 +87,4 @@ spec:
   system: Nowcom Global Ecosystem
   providesApi:
     - DealerCenter-Website
+
