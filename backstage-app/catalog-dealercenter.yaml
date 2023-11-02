@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DealerCenter-Website
+  description: |
+    DealerCenter Website
+  links:
+    - url: https://example.com/user
+      title: public users
+      icon: user
+    - url: https://example.com/help
+      title: Support
+      icon: help
+    - url: https://www.dealercenter.com
+      title: Website
+      icon: web
+spec:
+  type: webiste
+  lifecycle: experimental
+  owner: Team DealerCenter
+  system: Nowcom Global Ecosystem
+  dependsOn: ['resource:dealercenter-db']
+  apiConsumedBy: ['component:www-dealercenter']
