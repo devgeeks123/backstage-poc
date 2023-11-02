@@ -5,7 +5,7 @@ metadata:
   description: dealercenter-db
 spec:
   type: database
-  owner: team dealercetner dba
+  owner: Team DealerCenter
   system: Nowcom Global Ecosystem
 ---
 apiVersion: backstage.io/v1alpha1
