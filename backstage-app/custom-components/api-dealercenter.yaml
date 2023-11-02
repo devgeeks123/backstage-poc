@@ -18,4 +18,15 @@ spec:
   system: Nowcom Global Ecosystem
   consumesApi: ['component:DealerCenter-Website']
   definition: |
-    some dummy api def goes here
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: DealerCenter API
+      license:
+        name: MIT
+    servers:
+      - url: https://dealercenter.com
+    paths:
+      /cars:
+        get:
+          summary: List all cars
