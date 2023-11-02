@@ -20,4 +20,3 @@ spec:
   owner: Team DealerCenter
   system: Nowcom Global Ecosystem
   dependsOn: ['resource:dealercenter-db']
-  apiConsumedBy: ['component:www-dealercenter']

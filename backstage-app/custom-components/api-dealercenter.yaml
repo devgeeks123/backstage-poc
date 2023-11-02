@@ -12,8 +12,8 @@ metadata:
       title: API Spec
       icon: code
 spec:
-  type: internal-api
+  type: openapi
   lifecycle: experimental
   owner: Team DealerCenter
   system: Nowcom Global Ecosystem
-  apiConsumedBy: ['component:DealerCenter-Website']
+  consumesApi: ['component:DealerCenter-Website']
