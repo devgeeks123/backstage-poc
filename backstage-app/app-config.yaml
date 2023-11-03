@@ -42,7 +42,7 @@ integrations:
       # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
       # about setting up the GitHub integration here: https://backstage.io/docs/getting-started/configuration#setting-up-a-github-integration
       # token: ${GITHUB_TOKEN}
-      token: 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
+      token: ${GITHUB_TOKEN}
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
@@ -62,7 +62,7 @@ proxy:
     secure: false
     headers:
       Cookie:
-        $env: ARGOCD_AUTH_TOKEN
+        $env: ${ARGOCD_AUTH_TOKEN}
 
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
@@ -113,6 +113,6 @@ catalog:
     #     - allow: [User, Group]
 azureDevOps:
   host: dev.azure.com
-  token: jbnizgtmqhrt3pdz56fa7tv5kdtsb4xrvwhdur2muzc4tg4m4m4q
+  token: ${AZURE_TOKEN}
   organization: nowcom
 
