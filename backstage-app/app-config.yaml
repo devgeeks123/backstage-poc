@@ -111,3 +111,8 @@ catalog:
     #   target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/acme-corp.yaml
     #   rules:
     #     - allow: [User, Group]
+azureDevOps:
+  host: dev.azure.com
+  token: jbnizgtmqhrt3pdz56fa7tv5kdtsb4xrvwhdur2muzc4tg4m4m4q
+  organization: nowcom
+

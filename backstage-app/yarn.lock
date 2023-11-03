@@ -2692,6 +2692,29 @@
     zod "^3.21.4"
     zod-to-json-schema "^3.21.4"
 
+"@backstage/plugin-azure-devops-backend@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-azure-devops-backend/-/plugin-azure-devops-backend-0.4.3.tgz#67796a7923f1daafff6a4d0c476085169dad787d"
+  integrity sha512-ZZwlqUEvAcb3Rwe4J1kxTMrLPg9coycRi/ScOvs58AnXBZd0Bwm89dRZGKOVwYbc6N4PNxldcbE9B7qlG2D5AQ==
+  dependencies:
+    "@backstage/backend-common" "^0.19.8"
+    "@backstage/backend-plugin-api" "^0.6.6"
+    "@backstage/config" "^1.1.1"
+    "@backstage/plugin-azure-devops-common" "^0.3.1"
+    "@types/express" "^4.17.6"
+    azure-devops-node-api "^11.0.1"
+    express "^4.17.1"
+    express-promise-router "^4.1.0"
+    mime-types "^2.1.27"
+    p-limit "^3.1.0"
+    winston "^3.2.1"
+    yn "^4.0.0"
+
+"@backstage/plugin-azure-devops-common@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-azure-devops-common/-/plugin-azure-devops-common-0.3.1.tgz#1d611e79bfe14f754fbe59ca21e45ef89e08c93f"
+  integrity sha512-lx5oUNd/61aGUcxeFZXvRmPOpZ0ATF14sba2a13AaxCGA9LL6IcAX+hgGNz0o4sDuuQZ7Eci9jdwsLAa9YDVEg==
+
 "@backstage/plugin-catalog-backend-module-github@^0.4.4":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.4.4.tgz#694c606a2c9cd9d6472c18e45c43de41e3cf065b"
@@ -8428,6 +8451,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/theme" "^0.4.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
+    "@roadiehq/backstage-plugin-argo-cd" "^2.3.5"
     history "^5.0.0"
     react "^17.0.2"
     react-dom "^17.0.2"

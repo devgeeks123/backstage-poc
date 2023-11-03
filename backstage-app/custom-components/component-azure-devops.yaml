@@ -1,0 +1,12 @@
+# Example catalog-info.yaml entity definition file
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-devops
+  annotations:
+    dev.azure.com/project-repo: Nowcom/DealerCenter.Inventory.Services
+spec:
+  type: service
+  lifecycle: productionl
+  owner: nowcome global
+  
