@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dev2-argocd
+  description: dev2-argocd
+  annotations:
+    argocd/app-name: dev2-argocd
+spec:
+  type: service
+  lifecycle: experimental
+  owner: nowcom global
+
